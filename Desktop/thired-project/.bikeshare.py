@@ -38,7 +38,7 @@ def get_filters():
     while True:
         day = input("Do you want to display information for a particular day? If yes, enter day name else enter 'all'")
         day = day.lower()
-        if day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
+        if day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'all']:
             break
         else:
             print("invalid input. try again")
